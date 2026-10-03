@@ -69,7 +69,8 @@ All new features are derived from input columns only, to avoid target leakage.
 | `km_per_year` | Usage intensity (`km_driven / vehicle_age`); found to be partly confounded by age itself — older cars sell for less regardless of how lightly they were used |
 
 ### 4. Modeling — *in progress*
-- [ ] Train/test split and preprocessing pipeline
+- [x] Train/test split
+- [ ] Preprocessing pipeline (encoding + scaling)
 - [ ] Baseline model: Linear Regression
 - [ ] Random Forest, Gradient Boosting
 - [ ] Evaluation: R², MAE, RMSE with cross-validation
