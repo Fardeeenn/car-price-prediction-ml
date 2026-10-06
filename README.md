@@ -70,8 +70,8 @@ All new features are derived from input columns only, to avoid target leakage.
 
 ### 4. Modeling — *in progress*
 - [x] Train/test split
-- [ ] Preprocessing pipeline (encoding + scaling)
-- [ ] Baseline model: Linear Regression
+- [x] Preprocessing pipeline (encoding + scaling)
+- [x] Baseline model: Linear Regression (trained, not yet evaluated)
 - [ ] Random Forest, Gradient Boosting
 - [ ] Evaluation: R², MAE, RMSE with cross-validation
 - [ ] Hyperparameter tuning
