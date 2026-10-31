@@ -68,12 +68,13 @@ All new features are derived from input columns only, to avoid target leakage.
 | `fuel_type_grouped` | Hybrid and LPG (low sample count) merged into `Other` |
 | `km_per_year` | Usage intensity (`km_driven / vehicle_age`); found to be partly confounded by age itself — older cars sell for less regardless of how lightly they were used |
 
-### 4. Modeling — *in progress*
+### 4. Modeling (in progress)
 - [x] Train/test split
 - [x] Preprocessing pipeline (encoding + scaling)
-- [x] Baseline model: Linear Regression (trained, not yet evaluated)
+- [x] Baseline model: Linear Regression (R² 0.891, MAE ₹1.47L, RMSE ₹3.74L)
+- [ ] Error analysis (largest errors)
 - [ ] Random Forest, Gradient Boosting
-- [ ] Evaluation: R², MAE, RMSE with cross-validation
+- [ ] Cross-validation
 - [ ] Hyperparameter tuning
 - [ ] Feature importance analysis
 
